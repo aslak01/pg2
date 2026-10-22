@@ -1,1 +1,11 @@
-cli tool wip
+# pg
+
+TUI torrent search. Searches apibay and builds magnets using trackers from
+https://github.com/ngosang/trackerslist (trackers_best.txt).
+
+    go install .        # installs as `pg`
+    pg                  # prompt for a query
+    pg "my query"       # search directly
+
+Keys: j/k move, g/G top/bottom, h/l page, / filter, s new search,
+enter copy magnet + quit, q/esc quit.
